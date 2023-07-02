@@ -9,18 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Text("Breaking Bad")
+                .tabItem {
+                    Label("Breaking Bad", systemImage: "tortoise")
+                }
+            Text("Better Call Soul")
+                .tabItem {
+                    Label("Better Call soul", systemImage: "briefcase")
+                }
         }
-        .padding()
+        .onAppear {
+            UITabBar.appearance().scrollEdgeAppearance = UITabBarAppearance()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }

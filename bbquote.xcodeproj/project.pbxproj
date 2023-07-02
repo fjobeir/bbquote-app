@@ -14,6 +14,9 @@
 		88CCB47D2A51D95B00E044D3 /* bbquoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCB47C2A51D95B00E044D3 /* bbquoteTests.swift */; };
 		88CCB4872A51D95B00E044D3 /* bbquoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCB4862A51D95B00E044D3 /* bbquoteUITests.swift */; };
 		88CCB4892A51D95B00E044D3 /* bbquoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCB4882A51D95B00E044D3 /* bbquoteUITestsLaunchTests.swift */; };
+		88CCB4962A51D9CC00E044D3 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 88CCB4952A51D9CC00E044D3 /* samplecharacter.json */; };
+		88CCB4982A51DC1800E044D3 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCB4972A51DC1800E044D3 /* Quote.swift */; };
+		88CCB49A2A51DCB000E044D3 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CCB4992A51DCB000E044D3 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		88CCB4822A51D95B00E044D3 /* bbquoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbquoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CCB4862A51D95B00E044D3 /* bbquoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbquoteUITests.swift; sourceTree = "<group>"; };
 		88CCB4882A51D95B00E044D3 /* bbquoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbquoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88CCB4952A51D9CC00E044D3 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		88CCB4972A51DC1800E044D3 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		88CCB4992A51DCB000E044D3 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				88CCB46B2A51D95900E044D3 /* bbquoteApp.swift */,
 				88CCB46D2A51D95900E044D3 /* ContentView.swift */,
+				88CCB4972A51DC1800E044D3 /* Quote.swift */,
+				88CCB4992A51DCB000E044D3 /* Character.swift */,
+				88CCB4952A51D9CC00E044D3 /* samplecharacter.json */,
 				88CCB46F2A51D95B00E044D3 /* Assets.xcassets */,
 				88CCB4712A51D95B00E044D3 /* Preview Content */,
 			);
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CCB4732A51D95B00E044D3 /* Preview Assets.xcassets in Resources */,
+				88CCB4962A51D9CC00E044D3 /* samplecharacter.json in Resources */,
 				88CCB4702A51D95B00E044D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CCB46E2A51D95900E044D3 /* ContentView.swift in Sources */,
+				88CCB4982A51DC1800E044D3 /* Quote.swift in Sources */,
 				88CCB46C2A51D95900E044D3 /* bbquoteApp.swift in Sources */,
+				88CCB49A2A51DCB000E044D3 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
